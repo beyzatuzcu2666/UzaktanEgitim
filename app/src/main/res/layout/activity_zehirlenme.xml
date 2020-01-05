@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".zehirlenme">
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="289dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginLeft="57dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginRight="57dp"
+        android:layout_marginBottom="343dp"
+        android:text="Sindirim yolu ile zehirlenmede ilk yardım Sadece ağız zehirli maddeyle temas etmişse su ile çalkalanmalıdır. El ile temas etmişse el sabunlu su ile yıkanır. Yaşam bulguları değerlendirilir. Kusma, bulantı, ishal vb. belirtiler değerlendirilir. Özellikle yakıcı maddenin alındığı durumlarda hasta asla kusturulmaz! Bilinç kaybı varsa koma pozisyonu verilir. Üstü örtülür."
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toTopOf="@+id/button29"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="287dp"
+        android:layout_height="146dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginLeft="57dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginRight="57dp"
+        android:layout_marginBottom="230dp"
+        android:text="Solunum yoluyla zehirlenmelerde ilk yardım Olay yeri güvenliği sağlanır . Yaşamsal belirtiler değerlendirilir. Rahat nefes alabilmesi için yarı oturur pozisyonda tutulur."
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView53" />
+
+    <Button
+        android:id="@+id/button29"
+        android:layout_width="183dp"
+        android:layout_height="38dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/buttonshape"
+        android:onClick="button11"
+        android:shadowColor="#77A879"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="1"
+        android:text="GERİ DÖN"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView53" />
+</androidx.constraintlayout.widget.ConstraintLayout>

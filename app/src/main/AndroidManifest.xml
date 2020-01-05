@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.uzaktanegitim">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".cocuklarYardimText5"></activity>
+        <activity android:name=".cocuklarYardimText4" />
+        <activity android:name=".cocuklarYardimText3" />
+        <activity android:name=".cocuklarYardimTest2" />
+        <activity android:name=".cisimkacmasiİki" />
+        <activity android:name=".zehirlenme" />
+        <activity android:name=".cisimKacmasi" />
+        <activity android:name=".bilincBozuklugu" />
+        <activity android:name=".bebekİki" />
+        <activity android:name=".devamBebeklerbir" />
+        <activity android:name=".bebeklerBir" />
+        <activity android:name=".devam51" />
+        <activity android:name=".yaralanmalar" />
+        <activity android:name=".devam41" />
+        <activity android:name=".hayvanisiriklariİlkYardim" />
+        <activity android:name=".devam32" />
+        <activity android:name=".yetiskinlerdeUc" />
+        <activity android:name=".devam21" />
+        <activity android:name=".devam2" />
+        <activity android:name=".yetiskinlerİki" />
+        <activity android:name=".devam1" />
+        <activity android:name=".yetiskinlerBir" />
+        <activity android:name=".yetiskinlerYardimButton" />
+        <activity android:name=".cocuklarYardimButton" />
+        <activity android:name=".bebeklerYardimButton" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

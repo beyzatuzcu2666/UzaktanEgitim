@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".bilincBozuklugu">
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginLeft="58dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="37dp"
+        android:text="BEBEK BAYILDI İSE;"
+        android:textColor="@color/colorAccent"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView47"
+        android:layout_width="333dp"
+        android:layout_height="175dp"
+        android:layout_marginBottom="22dp"
+        android:text="Kişi bayıldı ise;  Etraftaki meraklılar uzaklaştırılır Hasta/yaralı sırt üstü yatırılır ve ayakları 30 cm yukarı kaldırılır Solunum yolu açıklığı kontrol edilir ve korunur Sıkan giysiler gevşetilir Kusma varsa yan pozisyonda tutulur."
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView48"
+        app:layout_constraintEnd_toEndOf="@+id/textView49"
+        app:layout_constraintStart_toStartOf="@+id/textView48"
+        app:layout_constraintTop_toBottomOf="@+id/textView46" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="215dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginBottom="30dp"
+        android:text="BEBEK ŞOKTA İSE;"
+        android:textColor="@color/colorAccent"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView49"
+        app:layout_constraintStart_toStartOf="@+id/textView49"
+        app:layout_constraintTop_toBottomOf="@+id/textView47" />
+
+    <TextView
+        android:id="@+id/textView49"
+
+        android:layout_width="334dp"
+        android:layout_height="149dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginEnd="37dp"
+
+        android:layout_marginRight="37dp"
+        android:layout_marginBottom="13dp"
+        android:text="Hasta/yaralının endişe ve korkuları giderilir. Mümkün olduğunca temiz hava soluması sağlanır. Hava yolunun açıklığı sağlanır. Kanama varsa hemen durdurulur. Şok pozisyonu verilir. Hasta/yaralı sıcak tutulur."
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="19sp"
+        app:layout_constraintBottom_toTopOf="@+id/button28"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView48" />
+
+    <Button
+        android:id="@+id/button28"
+        android:layout_width="152dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/buttonshape"
+        android:onClick="Button123"
+        android:shadowColor="#77A879"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="1"
+        android:text="GERİ DÖN"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView49"
+        app:layout_constraintTop_toBottomOf="@+id/textView49" />
+</androidx.constraintlayout.widget.ConstraintLayout>
